@@ -1,0 +1,77 @@
+.heading {
+    text-align: center;
+}
+
+.input-button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.input>input {
+    width: 450px;
+    outline: none;
+    padding: 5px;
+    height: 40px;
+}
+
+.AddBtn>button {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 40px;
+}
+
+.AddBtn-po>button {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 40px;
+    gap: 5px;
+
+}
+
+.input-po {
+    border: 1px solid gray;
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.clearAll>button {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .input-button {
+        width: 100%;
+    }
+
+    .input>input {
+        width: 225px;
+        height: 40px;
+    }
+
+    .input-po {
+        border: 1px solid gray;
+        width: 225px;
+        padding: 5px;
+    }
+
+    .AddBtn-po>button {
+        outline: none;
+        border-radius: 5px;
+        width: 42px;
+        border: 1px solid gray;
+        height: 40px;
+    }
+}
